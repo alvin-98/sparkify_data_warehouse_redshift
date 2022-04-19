@@ -11,7 +11,7 @@ A music streaming startup has a large userbase and has data stored in an Amazon 
 
 ## Instructions 
 
-1. Create a new IAM Role and give is read only access to Amazon S3 buckets
+1. Create a new IAM Role and give 'read-only' access to Amazon S3 buckets
 2. Create a Redshift Cluster and make sure the security group is configured to allow public access to the cluster and allow all TCP requests
 1. Run the 'create_tables.py' file to create all required tables
 2. Next, run 'running etl.py' to execute data loading and transformation 
